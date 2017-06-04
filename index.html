@@ -285,7 +285,7 @@ Posee una estratégica ubicación (a 164km de Buenos Aires y a 141km de la ciuda
   <hr>
   
   <div class="col-sm-9 col-sm-offset-1">
-      
+      <form id="contact" method="POST" action="sendemail.php">
       <div class="row form-group">
         <div class="col-md-12">
         <h1>Contactanos</h1>        
@@ -307,15 +307,15 @@ Posee una estratégica ubicación (a 164km de Buenos Aires y a 141km de la ciuda
       </div>
       <div class="row form-group">
           <div class="col-xs-10">
-            <textarea class="form-control" placeholder="Comentario"></textarea>
+            <textarea class="form-control" placeholder="Comentario" name="message"></textarea>
           </div>
       </div>
       <div class="row form-group">
           <div class="col-xs-10">
-            <button class="btn btn-default pull-right">Enviar</button>
+            <button class="btn btn-default pull-right" type="submit">Enviar</button>
           </div>
       </div>
-    
+      </form>
   </div>
   
 </div><!--/row-->
